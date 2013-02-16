@@ -144,7 +144,7 @@ function ctools_block_content_type_render($subtype, $conf) {
     drupal_alter(array('block_view', "block_view_{$module}_{$delta}"), $block, $info);
     $block = (object) $block;
   }
-
+// test
   if (empty($block)) {
     return;
   }
